@@ -30,6 +30,6 @@ function actualizaHTML(ultimos4) {
 
     for (var i = 0; i <= ultimos4.length - 1; i++) {
         lblTickets[i].text('Ticket ' + ultimos4[i].numero);
-        lblEscritorios[i].text('Ticket ' + ultimos4[i].escritorio);
+        lblEscritorios[i].text('Escritorio ' + ultimos4[i].escritorio);
     }
 }
